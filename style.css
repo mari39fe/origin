@@ -1,6 +1,7 @@
 #game_background {
     background-image: url("artboards/gamescreen.svg");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
     width: 100vw;
     height:100vh;
     margin: auto;
