@@ -1,0 +1,134 @@
+#game_background {
+    background-image: url("artboards/gamescreen.svg");
+    background-size: cover;
+    width: 100vw;
+    height:100vh;
+    margin: auto;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+
+#phone {
+    background-image: url("artboards/phone.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 6vw;
+    height: 10vw;
+    position: absolute;
+    z-index: 1;
+    top: 5vw;
+    left: 56vw;
+}
+
+#minus1 {
+    background-image: url("artboards/minus1.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 11vw;
+    height: 7vw;
+    position: absolute;
+    z-index: 2;
+    top: 16vw;
+    left: 60vw;
+}
+
+
+/******************************* UI *****************************************/
+
+#time {
+    background-image: url("artboards/clock.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 12vw;
+    height: 12vw;
+    position: absolute;
+    z-index: 1;
+    top: 6vw;
+    left: 4vw;
+}
+
+#points {
+    background-image: url("artboards/studyometer.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 44.8vw;
+    height: 36.8vw;
+    position: absolute;
+    z-index: 1;
+    top: 43vw;
+    left: 54vw;
+}
+
+
+
+
+/******************************* SCREENS *****************************************/
+
+
+#start {
+    background-image: url("artboards/startscreen.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    z-index: 2;
+    display: none;
+
+
+}
+
+#settings {
+    background-image: url("artboards/settings.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 40vw;
+    position: absolute;
+    z-index: 3;
+    top: 10vw;
+    left: 28vw;
+    display: none;
+
+}
+
+#gameover1 {
+    background-image: url("artboards/gameover1.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 40vw;
+    position: absolute;
+    z-index: 3;
+    top: 10vw;
+    left: 28vw;
+    display: none;
+}
+
+#gameover2 {
+    background-image: url("artboards/gameover2.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 40vw;
+    position: absolute;
+    z-index: 3;
+    top: 10vw;
+    left: 28vw;
+    display: none;
+}
+
+#levelcomplete {
+    background-image: url("artboards/levelcomplete.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 45vw;
+    height: 40vw;
+    position: absolute;
+    z-index: 3;
+    top: 10vw;
+    left: 28vw;
+    display: none;
+}
